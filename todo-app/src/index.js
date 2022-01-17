@@ -99,12 +99,13 @@ class App extends Component {
     return (
       <React.Fragment>
         <div className="input-container">
-          <button onClick={this.addTodoItem}>ADD ITEM</button>
+          <button onClick={this.addTodoItem}>ADD TASK</button>
           <input
             className='input'
             type="text"
             name="input"
             id="input"
+            placeholder='Enter your next task here!'
             value={this.state.inputValue}
             onChange={this.onChangeHandler}
           />

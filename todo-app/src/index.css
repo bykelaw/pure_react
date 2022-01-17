@@ -24,7 +24,12 @@ body {
 }
 .input{
   width: 50%;
+  color: inherit;
 
+}
+.input::placeholder{
+  color:#ccc;
+  font-style: italic;
 }
 button{
   width: 33%;
@@ -49,6 +54,9 @@ button{
   align-items: center;
   border-radius: 8px;
 }
+.todo-item + .todo-item{
+  margin-top: 1rem;
+}
 .todo-item{
     display: flex;
     justify-content: space-evenly;
@@ -56,10 +64,22 @@ button{
     align-items: center;
     border-radius: 3px;
     width: 90%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.467);
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.467);
+    transition: all 0.3s ease-in-out;
+  }
+  .todo-item:hover{
+    transform: scale(1.05);
 }
 .todo-item h3{
   width: 64%;
   margin: 0;
   font-size: 0.8rem;
+}
+.todo-item span{
+ cursor: pointer;
+ transition: all 0.3s;
+}
+
+.todo-item span:hover{
+  transform: scale(5,2.4) skewX(10deg);
 }
