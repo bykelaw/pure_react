@@ -1,14 +1,13 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import CountingParent from "./CountingParent";
-// import HouseControl from "./HouseControl";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App"
 
 
-// function Page(){
-//   return(
-//     <div>
-//       <HouseControl/>
-//     </div>
-//   )
-// }
-// ReactDOM.render(<Page/>,document.querySelector('#root'))
+function Index(){
+  return(
+    <div>
+      <App/>
+    </div>
+  )
+}
+ReactDOM.render(<Index/>,document.querySelector('#root'))

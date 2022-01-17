@@ -214,8 +214,8 @@ ReactDOM.render(
     );
     }
     }
-    ReactDOM.render(
-    <ErrorCatcher>
-    <LifecycleDemo/>
-    </ErrorCatcher> ,
-    document.querySelector('#root'))
+    // ReactDOM.render(
+    // <ErrorCatcher>
+    // <LifecycleDemo/>
+    // </ErrorCatcher> ,
+    // document.querySelector('#root'))

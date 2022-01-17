@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+    color: rgb(61, 209, 160);
+    font-family: sans-serif;
+    font-size: 62.5%;
+
+}
+
+.input-container{
+  width: 30rem;
+  margin:3rem  auto ;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.input,button{
+  display: inline-block;
+  justify-content: space-evenly;
+   padding: 0.5rem;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.467);
+  border-color: transparent;
+}
+.input{
+  width: 50%;
+
+}
+button{
+  width: 33%;
+  color: inherit;
+  background-color: white;
+  margin-right: 1rem;
+}
+
+
+.stage{
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+}
+.stage > div{
+  width: 22%;
+  padding: 0.3rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.467);
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-evenly;
+     padding: 0.5rem;
+    align-items: center;
+    border-radius: 3px;
+    width: 90%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.467);
+}
+.todo-item h3{
+  width: 64%;
+  margin: 0;
+  font-size: 0.8rem;
+}
